@@ -1,0 +1,24 @@
+.social{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+
+    a{
+        height: 50px;
+        width: 50px;
+        border: none;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    @media screen and (min-width: 768px) {
+        a{
+            height: 60px;
+            width: 60px;
+           
+        }
+    }
+}
