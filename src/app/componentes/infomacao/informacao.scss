@@ -1,0 +1,43 @@
+.infos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        max-width: 500px;
+        grid-area: info;
+        gap: 20px;
+        margin-top: 20px;
+
+    .educacao, .informacoes{
+        display: flex;
+        flex-direction: column;
+        gap:17px;
+        align-items: flex-start;
+        width: 100%;
+        
+    }
+
+    span{
+        color: var(--text-tertiary);
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 24px;
+        align-items: flex-start;
+        width: 100%;
+        
+        
+
+    }
+
+    @media (min-Width:768px){       
+        .infos{
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            justify-content: space-between;
+            width: 100%;
+            max-width: 500px;
+            gap: 20px;
+        }
+    }
+}
